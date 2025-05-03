@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/practicaFinal.uss?fileID=7433441132597879392&amp;guid=107d46cab88bea94d980b6967c92e907&amp;type=3#practicaFinal" />
+    <ui:VisualElement name="Contenedor" style="flex-grow: 1; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
+        <ui:VisualElement name="Pestanyas" style="flex-grow: 1; flex-direction: row; max-width: 57%; min-width: 50%; max-height: 15%; min-height: 15%;">
+            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); max-width: 50%; background-image: url(&quot;project://database/Assets/BotonMorado1.png?fileID=2800000&amp;guid=776dbc8ac959e4b4b8a5c8163fa3258f&amp;type=3#BotonMorado1&quot;); justify-content: flex-end; -unity-text-align: upper-left;">
+                <ui:Label tabindex="-1" text="Skills" parse-escape-sequences="true" display-tooltip-when-elided="true" name="skills" class="text" style="-unity-text-align: middle-center; justify-content: space-between; align-items: auto; font-size: 16px; -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); max-width: 50%; background-image: url(&quot;project://database/Assets/BotonMorado2.png?fileID=2800000&amp;guid=10113d8ad7840a44a88f95d46eff2324&amp;type=3#BotonMorado2&quot;); justify-content: flex-end; align-self: auto;">
+                <ui:Label tabindex="-1" text="Bio" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bio" class="text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Contenido" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoMorado1.png?fileID=2800000&amp;guid=c63133b73bec7f24ca4e7d1302a9bd3f&amp;type=3#FondoMorado1&quot;);">
+                <ui:VisualElement name="robotin" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/RobotAzul.png?fileID=2800000&amp;guid=b8a4b58dc6aa78e42808bc0ee86791b6&amp;type=3#RobotAzul&quot;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); display: none; background-image: url(&quot;project://database/Assets/FondoMorado2.png?fileID=2800000&amp;guid=669239d9f303b754f9629cb8592ea3c1&amp;type=3#FondoMorado2&quot;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

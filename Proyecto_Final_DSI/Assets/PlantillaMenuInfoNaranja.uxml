@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Contenedor" style="flex-grow: 1; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
+        <ui:VisualElement name="Pestanyas" style="flex-grow: 1; flex-direction: row; max-width: 57%; min-width: 50%; max-height: 15%; min-height: 15%;">
+            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); max-width: 50%; background-image: url(&quot;project://database/Assets/BotonNaranja2.png?fileID=2800000&amp;guid=4294f8997434ecc459b59c3828882537&amp;type=3#BotonNaranja2&quot;); justify-content: flex-end; -unity-text-align: upper-left;">
+                <ui:Label tabindex="-1" text="Skills" parse-escape-sequences="true" display-tooltip-when-elided="true" name="skills" class="text" style="-unity-text-align: middle-center; justify-content: space-between; align-items: auto; font-size: 16px; -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); max-width: 50%; background-image: url(&quot;project://database/Assets/BotonNaranja2.png?fileID=2800000&amp;guid=4294f8997434ecc459b59c3828882537&amp;type=3#BotonNaranja2&quot;); justify-content: flex-end; align-self: auto;">
+                <ui:Label tabindex="-1" text="Bio" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bio" class="text" style="font-size: 16px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Contenido" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoNaranja1.png?fileID=2800000&amp;guid=dd666eefc8a8ace4b892b1284c8d5596&amp;type=3#FondoNaranja1&quot;);">
+                <ui:VisualElement name="robotin" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/RobotRojo.png?fileID=2800000&amp;guid=92442305ac917f64b9e13d9280512a1a&amp;type=3#RobotRojo&quot;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); display: none; background-image: url(&quot;project://database/Assets/FondoNaranja2.png?fileID=2800000&amp;guid=34087b5f112295542bb22d2d187ab41f&amp;type=3#FondoNaranja2&quot;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

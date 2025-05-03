@@ -1,0 +1,28 @@
+.buton {
+    max-height: 25%;
+    max-width: 70%;
+    align-self: center;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    min-width: 60px;
+}
+
+.text {
+    font-size: 16px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+}
+
+.buton:hover {
+    scale: 1 1.1;
+    rotate: 5deg;
+}
+
+.robot {
+}
+
+.robot:hover {
+    scale: 1.1 1.1;
+}
