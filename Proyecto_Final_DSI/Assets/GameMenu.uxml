@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MenuInicial" src="project://database/Assets/MenuInicial.uxml?fileID=9197481963319205126&amp;guid=e2d487c4fb19a2b448f1c68b79e366ce&amp;type=3#MenuInicial" />
+    <ui:VisualElement name="Lobby" style="flex-grow: 1;">
+        <ui:VisualElement name="Content" style="flex-grow: 1;">
+            <ui:Instance template="MenuInicial" name="MenuInicial" style="min-height: 100%; display: none;" />
+            <ui:VisualElement name="InitialMenu" style="flex-grow: 1; background-color: rgba(255, 0, 0, 0); background-image: url(&quot;project://database/Assets/FondoInicial.png?fileID=2800000&amp;guid=0ed0a40043f1fec49b04f76f4022a361&amp;type=3#FondoInicial&quot;); align-items: stretch; justify-content: space-around; align-self: auto;">
+                <ui:VisualElement name="Island" style="flex-grow: 1; max-width: 40%; max-height: 25%; min-width: 40%; min-height: 25%; align-self: center; background-image: url(&quot;project://database/Assets/Island.png?fileID=2800000&amp;guid=2b52263030c8d20418bcd557edff1c6c&amp;type=3#Island&quot;); top: 20%;" />
+                <ui:VisualElement name="BotonPlay" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/BotonPlay.png?fileID=2800000&amp;guid=212336c6982b1c74d8261961184768fe&amp;type=3#BotonPlay&quot;); max-width: 40%; max-height: 15%; align-items: center; align-self: center; min-width: 40%; min-height: 15%; bottom: 0; justify-content: center;">
+                    <ui:Label tabindex="-1" text="PLAY" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: bold; font-size: 20px; -unity-font: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=25f84027720cf1842b09fc858351abeb&amp;type=3#NotInter-Regular&quot;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="BelowButtons" style="flex-grow: 1; max-height: 15%; flex-direction: row;">
+            <ui:VisualElement name="Characters" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/BotonCharacters%201.png?fileID=2800000&amp;guid=ae943e3c22676fc4984f15c638a8009b&amp;type=3#BotonCharacters 1&quot;);" />
+            <ui:VisualElement name="Game" style="flex-grow: 1; background-color: rgba(255, 0, 0, 0); background-image: url(&quot;project://database/Assets/BotonGame.png?fileID=2800000&amp;guid=e3ee98b64d4c3b44abcb6d06180c7374&amp;type=3#BotonGame&quot;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
