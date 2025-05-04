@@ -7,10 +7,15 @@ public class GameMenuPestanyas : MonoBehaviour
     VisualElement button_game;
     VisualElement pestanya_characters;
     VisualElement pestanya_game;
+
+    Button ajustes;
+    Button exitAjustes;
+    VisualElement ajustesWindow;
     private void NoContenido()
     {
         pestanya_characters.style.display = DisplayStyle.None;
         pestanya_game.style.display = DisplayStyle.None;
+        ajustesWindow.style.display = DisplayStyle.None;
     }
 
     private void OnEnable()
@@ -26,6 +31,22 @@ public class GameMenuPestanyas : MonoBehaviour
 
         button_characters = button.Q("Characters");
         button_game = button.Q("Game");
+
+        ajustes = pestanya_game.Q<Button>("Ajustes");
+        ajustesWindow = pestanya.Q("AjustesWindow");
+        exitAjustes = ajustesWindow.Q<Button>("Exit");
+
+        exitAjustes.clicked += () =>
+        {
+            NoContenido();
+            pestanya_game.style.display = DisplayStyle.Flex;
+        };
+
+        ajustes.clicked += () =>
+        {
+            NoContenido();
+            ajustesWindow.style.display = DisplayStyle.Flex;
+        };
 
         button_characters.RegisterCallback<MouseDownEvent>(evt =>
         {

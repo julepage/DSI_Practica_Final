@@ -1,0 +1,22 @@
+.play {
+}
+
+.play:hover {
+    scale: 1.1 1.1;
+}
+
+.ajustes {
+}
+
+.ajustes:hover {
+    scale: 1.1 1.1;
+    rotate: 10deg;
+}
+
+.belowPad {
+}
+
+.belowPad:hover {
+    scale: 1 1.1;
+    translate: 0 -2px;
+}

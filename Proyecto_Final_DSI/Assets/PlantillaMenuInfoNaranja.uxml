@@ -1,4 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/plantillasAmarillo.uss?fileID=7433441132597879392&amp;guid=e5db96ad41d324949acdb8b8c680a0b9&amp;type=3#plantillasAmarillo" />
     <ui:VisualElement name="Contenedor" style="flex-grow: 1; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
         <ui:VisualElement name="Pestanyas" style="flex-grow: 1; flex-direction: row; max-width: 57%; min-width: 50%; max-height: 15%; min-height: 15%;">
             <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); max-width: 50%; background-image: url(&quot;project://database/Assets/BotonNaranja2.png?fileID=2800000&amp;guid=4294f8997434ecc459b59c3828882537&amp;type=3#BotonNaranja2&quot;); justify-content: flex-end; -unity-text-align: upper-left;">
@@ -9,10 +10,13 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="Contenido" style="flex-grow: 1; flex-direction: row;">
-            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoNaranja1.png?fileID=2800000&amp;guid=dd666eefc8a8ace4b892b1284c8d5596&amp;type=3#FondoNaranja1&quot;);">
-                <ui:VisualElement name="robotin" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/RobotRojo.png?fileID=2800000&amp;guid=92442305ac917f64b9e13d9280512a1a&amp;type=3#RobotRojo&quot;);" />
+            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoNaranja1.png?fileID=2800000&amp;guid=dd666eefc8a8ace4b892b1284c8d5596&amp;type=3#FondoNaranja1&quot;); display: none; min-width: 100%;">
+                <ui:VisualElement name="robotin" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/RobotRojo.png?fileID=2800000&amp;guid=854db774e00b052469ebb9919311b7b3&amp;type=3#RobotRojo&quot;);" />
             </ui:VisualElement>
-            <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); display: none; background-image: url(&quot;project://database/Assets/FondoNaranja2.png?fileID=2800000&amp;guid=34087b5f112295542bb22d2d187ab41f&amp;type=3#FondoNaranja2&quot;);" />
+            <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); display: flex; background-image: url(&quot;project://database/Assets/FondoNaranja2.png?fileID=2800000&amp;guid=34087b5f112295542bb22d2d187ab41f&amp;type=3#FondoNaranja2&quot;); justify-content: space-around; -unity-text-align: upper-center; -unity-font-style: bold; min-width: 100%;">
+                <ui:Label tabindex="-1" text="&quot;La máquina total&quot;&#10;Rojo como el peligro, completo &#10;como un multiherramienta. &#10;Crimson Core combina potencia, &#10;habilidad mecánica y una batería &#10;que parece eterna. No solo&#10;lucha: mejora, aguanta y domina." parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoBack" class="esc" style="max-width: 35%; max-height: 35%; min-height: auto; min-width: auto; bottom: 17.5%; right: 15%; background-image: url(&quot;project://database/Assets/flechaDcha.png?fileID=2800000&amp;guid=a9ea375d9d6e25148b477dd0f19f50c9&amp;type=3#flechaDcha&quot;); background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); scale: 2 0.8;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

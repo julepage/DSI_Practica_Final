@@ -18,6 +18,10 @@ public class CambioPersonajes : MonoBehaviour
     VisualElement menu_naranja;
     VisualElement menu_morado;
 
+    Button goBackMorado;
+    Button goBackNaranja;
+    Button goBackAmarillo;
+
     [SerializeField]
     MenuPestanyas menuP;
 
@@ -54,6 +58,28 @@ public class CambioPersonajes : MonoBehaviour
         menu_amarillo = contenedor.Q("MenuAmarillo");
         menu_naranja = contenedor.Q("MenuNaranja");
         menu_morado = contenedor.Q("MenuMorado");
+
+        goBackMorado = menu_morado.Q<Button>("GoBack");
+        goBackNaranja = menu_naranja.Q<Button>("GoBack");
+        goBackAmarillo = menu_amarillo.Q<Button>("GoBack");
+
+        goBackMorado.clicked += () =>
+        {
+            NoContenido();
+            robot_azul.style.display = DisplayStyle.Flex;
+        };
+
+        goBackNaranja.clicked += () =>
+        {
+            NoContenido();
+            robot_rojo.style.display = DisplayStyle.Flex;
+        };
+
+        goBackAmarillo.clicked += () =>
+        {
+            NoContenido();
+            robot_amarillo.style.display = DisplayStyle.Flex;
+        };
 
         izdaMorado.clicked += () =>
         {

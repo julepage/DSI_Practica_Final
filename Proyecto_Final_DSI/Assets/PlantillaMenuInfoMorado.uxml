@@ -10,10 +10,13 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="Contenido" style="flex-grow: 1; flex-direction: row;">
-            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoMorado1.png?fileID=2800000&amp;guid=c63133b73bec7f24ca4e7d1302a9bd3f&amp;type=3#FondoMorado1&quot;);">
+            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoMorado1.png?fileID=2800000&amp;guid=c63133b73bec7f24ca4e7d1302a9bd3f&amp;type=3#FondoMorado1&quot;); display: none; min-width: 100%;">
                 <ui:VisualElement name="robotin" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/RobotAzul.png?fileID=2800000&amp;guid=b8a4b58dc6aa78e42808bc0ee86791b6&amp;type=3#RobotAzul&quot;);" />
             </ui:VisualElement>
-            <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); display: none; background-image: url(&quot;project://database/Assets/FondoMorado2.png?fileID=2800000&amp;guid=669239d9f303b754f9629cb8592ea3c1&amp;type=3#FondoMorado2&quot;);" />
+            <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); display: flex; background-image: url(&quot;project://database/Assets/FondoMorado2.png?fileID=2800000&amp;guid=669239d9f303b754f9629cb8592ea3c1&amp;type=3#FondoMorado2&quot;); justify-content: space-around; min-width: 100%;">
+                <ui:Label tabindex="-1" text="&quot;Potencia sin control&quot;&#10;Este reluciente robot amarillo &#10;tiene carisma de sobra y energía&#10;de reserva, pero cuidado: no &#10;esperes que te arregle una&#10;tuerca. Lo suyo es brillar,&#10;avanzar y deslumbrar." parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: bold; -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="GoBack" class="esc" style="max-width: 35%; max-height: 35%; min-height: auto; min-width: auto; bottom: 17.5%; right: 15%; background-image: url(&quot;project://database/Assets/flechaDcha.png?fileID=2800000&amp;guid=a9ea375d9d6e25148b477dd0f19f50c9&amp;type=3#flechaDcha&quot;); background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); scale: 2 0.8;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

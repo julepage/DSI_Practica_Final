@@ -3,3 +3,11 @@
     -unity-font-style: bold;
     -unity-text-align: upper-center;
 }
+
+.esc {
+}
+
+.esc:hover {
+    scale: 1 1.1;
+    rotate: 5deg;
+}
