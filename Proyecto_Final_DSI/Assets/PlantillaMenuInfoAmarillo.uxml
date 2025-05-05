@@ -1,5 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="lab4d" src="project://database/Assets/lab4d.uxml?fileID=9197481963319205126&amp;guid=eb55d1b99dad0fa47932dc9a144734c4&amp;type=3#lab4d" />
     <Style src="project://database/Assets/plantillas.uss?fileID=7433441132597879392&amp;guid=8a4217dcc721b4543a984f6055bee108&amp;type=3#plantillas" />
+    <Style src="project://database/Assets/lab4d.uss?fileID=7433441132597879392&amp;guid=f9c3047d126adec45bef034047d0432e&amp;type=3#lab4d" />
     <ui:VisualElement name="Contenedor" style="flex-grow: 1; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
         <ui:VisualElement name="Pestanyas" style="flex-grow: 1; flex-direction: row; max-width: 57%; min-width: 50%; max-height: 15%; min-height: 15%;">
             <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); max-width: 50%; background-image: url(&quot;project://database/Assets/BotonAmarillo.png?fileID=2800000&amp;guid=16f9c0add9cfc4841913091aaeabb3a8&amp;type=3#BotonAmarillo&quot;); justify-content: flex-end; -unity-text-align: upper-left;">
@@ -10,8 +12,9 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="Contenido" style="flex-grow: 1; flex-direction: row;">
-            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoAmarillo1.png?fileID=2800000&amp;guid=9e2a592b44f348b42b5dfce92ac6a192&amp;type=3#FondoAmarillo1&quot;); display: flex; min-width: 100%;">
-                <ui:VisualElement name="robotin" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/RobotAmarillo.png?fileID=2800000&amp;guid=7c3b99d2d685b4047a91d79e51f67032&amp;type=3#RobotAmarillo&quot;);" />
+            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoAmarillo1.png?fileID=2800000&amp;guid=9e2a592b44f348b42b5dfce92ac6a192&amp;type=3#FondoAmarillo1&quot;); display: flex; min-width: 100%; flex-direction: row;">
+                <ui:VisualElement name="robotin" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/RobotAmarillo.png?fileID=2800000&amp;guid=7c3b99d2d685b4047a91d79e51f67032&amp;type=3#RobotAmarillo&quot;); min-height: 120%; bottom: 5%;" />
+                <ui:Instance template="lab4d" name="lab4d" style="flex-direction: column; align-self: center; align-items: auto; justify-content: flex-start; max-width: 100%; max-height: 50%; min-width: 10%; min-height: 50%; bottom: auto; right: 15%;" />
             </ui:VisualElement>
             <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); display: none; background-image: url(&quot;project://database/Assets/FondoAmarillo2.png?fileID=2800000&amp;guid=3db99d3963bb60743bf85aaaff6dcb94&amp;type=3#FondoAmarillo2&quot;); justify-content: space-around; min-width: 100%;">
                 <ui:Label tabindex="-1" text="&quot;El técnico fiable&quot;&#10;Este robot azul no brillará &#10;en carisma, pero cuando&#10;se trata de reparar y resistir, &#10;nadie le gana. Con su caja &#10;de herramientas siempre&#10; a mano y una batería justa para el &#10;trabajo, Azulito es tu mejor &#10;opción cuando necesitas un &#10;operario constante." parse-escape-sequences="true" display-tooltip-when-elided="true" name="desc" style="-unity-text-align: upper-center; -unity-font-style: bold;" />

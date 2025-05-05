@@ -1,0 +1,15 @@
+<!-- <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/lab4d.uss?fileID=7433441132597879392&amp;guid=f9c3047d126adec45bef034047d0432e&amp;type=3#lab4d" />
+    <lab4d name="lab4d" estado="0" tabindex="0" />
+</ui:UXML>
+ -->
+ <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <!-- Referencia al archivo de estilo -->
+    <Style src="project://database/Assets/Resources/lab4d.uss?fileID=7433441132597879392&amp;guid=f9c3047d126adec45bef034047d0432e&amp;type=3#lab4d" />
+
+    <!-- Control para 'Ataque' con la imagen 'espada' -->
+    <lab4d nombre="Ataque" nivel="3" imagen="espada" />
+
+    <!-- Control para 'Defensa' con la imagen 'escudo' -->
+    <lab4d nombre="Defensa" nivel="4" imagen="escudo" />
+</ui:UXML>

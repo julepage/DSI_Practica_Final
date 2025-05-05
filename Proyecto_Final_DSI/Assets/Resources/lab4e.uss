@@ -1,0 +1,30 @@
+.atributo_visual {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.icono {
+    margin-right: 10px;
+}
+
+.barra_niveles {
+    flex-direction: row;
+}
+
+.barra_activa {
+    border-left-color: rgb(0, 204, 9);
+    border-right-color: rgb(0, 204, 9);
+    border-top-color: rgb(0, 204, 9);
+    border-bottom-color: rgb(0, 204, 9);
+}
+
+.barra_inactiva {
+    border-left-color: rgb(72, 70, 70);
+    border-right-color: rgb(72, 70, 70);
+    border-top-color: rgb(72, 70, 70);
+    border-bottom-color: rgb(72, 70, 70);
+}
