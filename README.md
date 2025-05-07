@@ -7,4 +7,4 @@ Desde el menú principal, podrás iniciar tu aventura, cambiar de personaje para
 
 ¿Estás listo para convertirte en leyenda?
 
-![Robotio](img/imagen.png)
+![Robotio](Assets/RobotAmarillo.png)
