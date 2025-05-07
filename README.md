@@ -7,4 +7,4 @@ Desde el menú principal, podrás iniciar tu aventura, cambiar de personaje para
 
 ¿Estás listo para convertirte en leyenda?
 
-![Robotio](https://github.com/user-attachments/assets/ecf517bb-2ba3-46ec-a3b4-2466cdffb8c0)
+![IMG_0293](https://github.com/user-attachments/assets/e97c5035-e5fd-49bf-b63c-4b04e05ad88e)
