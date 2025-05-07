@@ -1,4 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="lab4d2" src="project://database/Assets/lab4d2.uxml?fileID=9197481963319205126&amp;guid=b558ad03f633f6b45b92a4409d7592c8&amp;type=3#lab4d2" />
     <Style src="project://database/Assets/plantillasAmarillo.uss?fileID=7433441132597879392&amp;guid=e5db96ad41d324949acdb8b8c680a0b9&amp;type=3#plantillasAmarillo" />
     <ui:VisualElement name="Contenedor" style="flex-grow: 1; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
         <ui:VisualElement name="Pestanyas" style="flex-grow: 1; flex-direction: row; max-width: 57%; min-width: 50%; max-height: 15%; min-height: 15%;">
@@ -10,8 +11,9 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="Contenido" style="flex-grow: 1; flex-direction: row;">
-            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoNaranja1.png?fileID=2800000&amp;guid=dd666eefc8a8ace4b892b1284c8d5596&amp;type=3#FondoNaranja1&quot;); display: flex; min-width: 100%;">
-                <ui:VisualElement name="robotin" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/RobotRojo.png?fileID=2800000&amp;guid=854db774e00b052469ebb9919311b7b3&amp;type=3#RobotRojo&quot;);" />
+            <ui:VisualElement name="Azul" style="flex-grow: 1; background-color: rgba(0, 104, 255, 0); background-image: url(&quot;project://database/Assets/FondoNaranja1.png?fileID=2800000&amp;guid=dd666eefc8a8ace4b892b1284c8d5596&amp;type=3#FondoNaranja1&quot;); display: flex; min-width: 100%; flex-direction: row;">
+                <ui:VisualElement name="robotin" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/RobotRojo.png?fileID=2800000&amp;guid=854db774e00b052469ebb9919311b7b3&amp;type=3#RobotRojo&quot;); top: auto;" />
+                <ui:Instance template="lab4d2" name="lab4d2" style="right: 15%; top: 25%; max-width: 100%; min-width: 10%; min-height: 50%; max-height: 50%;" />
             </ui:VisualElement>
             <ui:VisualElement name="Verde" style="flex-grow: 1; background-color: rgba(0, 255, 4, 0); display: none; background-image: url(&quot;project://database/Assets/FondoNaranja2.png?fileID=2800000&amp;guid=34087b5f112295542bb22d2d187ab41f&amp;type=3#FondoNaranja2&quot;); justify-content: space-around; -unity-text-align: upper-center; -unity-font-style: bold; min-width: 100%;">
                 <ui:Label tabindex="-1" text="&quot;La máquina total&quot;&#10;Rojo como el peligro, completo &#10;como un multiherramienta. &#10;Crimson Core combina potencia, &#10;habilidad mecánica y una batería &#10;que parece eterna. No solo&#10;lucha: mejora, aguanta y domina." parse-escape-sequences="true" display-tooltip-when-elided="true" />

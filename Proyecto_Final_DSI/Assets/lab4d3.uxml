@@ -8,11 +8,11 @@
     <Style src="project://database/Assets/Resources/lab4d.uss?fileID=7433441132597879392&amp;guid=f9c3047d126adec45bef034047d0432e&amp;type=3#lab4d" />
 
     <!-- Control para 'Ataque' con la imagen 'espada' -->
-    <lab4d nombre="Ataque" nivel="5" imagen="estrella" />
+    <lab4d nombre="Ataque" nivel="3" imagen="estrella" />
 
     <!-- Control para 'Defensa' con la imagen 'escudo' -->
-    <lab4d nombre="Defensa" nivel="1" imagen="tuerca" /> 
+    <lab4d nombre="Defensa" nivel="4" imagen="tuerca" /> 
     
     <!-- Control para 'Energia' con la imagen 'escudo' -->
-    <lab4d nombre="Energia" nivel="3" imagen="energia" />
+    <lab4d nombre="Energia" nivel="2" imagen="energia" />
 </ui:UXML>

@@ -1,0 +1,45 @@
+.panel_round {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+
+.atributo_visual {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.icono {
+    margin-right: 10px;
+    width: 64px;
+    height: 64px;
+}
+
+.barra_niveles {
+    flex-direction: row;
+}
+
+.barra_activa {
+    background-color: rgb(34, 255, 0);
+}
+
+.barra_inactiva {
+    background-color: rgb(72, 72, 72);
+}
