@@ -22,7 +22,7 @@
                 <ui:Toggle label="SoundEffects" name="SE" style="top: 30%; -unity-font-style: bold; color: rgb(240, 241, 241);" />
                 <ui:Toggle label="Chat" name="Chat" style="top: 40%; color: rgb(255, 255, 255); -unity-font-style: bold;" />
             </ui:VisualElement>
-            <ui:TextField picking-mode="Ignore" label="Tag your name&#10;+ a number &#10;(number will &#10;choose a profile picture)" value="user1" name="Username" style="bottom: 0; top: 40%; display: none;" />
+            <ui:TextField picking-mode="Ignore" label="Tag your name&#10;+ a number &#10;(number will &#10;choose a profile picture)" value="user1" name="Username" style="bottom: 0; top: 40%; display: none; -unity-font-style: bold; color: rgb(126, 199, 214);" />
             <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SaveButton" style="bottom: 0; top: 40%; display: none;" />
             <ui:VisualElement name="ProfilePicture" style="flex-grow: 1; max-width: 9%; min-width: 9%; max-height: 8%; min-height: 8%; bottom: 92%; top: auto; left: 89%;" />
         </ui:VisualElement>

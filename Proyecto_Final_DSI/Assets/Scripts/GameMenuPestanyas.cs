@@ -114,11 +114,13 @@ public class GameMenuPestanyas : MonoBehaviour
         {
             NoContenido();
             pestanya_characters.style.display = DisplayStyle.Flex;
+            imagenUsuario.style.display = DisplayStyle.None;
         });
 
         button_game.RegisterCallback<MouseDownEvent>(evt =>
         {
             NoContenido();
+            imagenUsuario.style.display = DisplayStyle.Flex;
             pestanya_game.style.display = DisplayStyle.Flex;
         });
 
@@ -135,7 +137,7 @@ public class GameMenuPestanyas : MonoBehaviour
         saveButton.clicked += () =>
         {
             string nombre = nameInput.value;
-            
+
             string imagenAsignada = ObtenerImagenSegunNombre(nombre);
             nombre = ObtenerNombreSinNumero(nombre);
             Individuo nuevo = new Individuo(nombre, imagenAsignada); // o deja "" si no quieres imagen
